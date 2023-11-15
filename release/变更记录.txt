@@ -1,0 +1,33 @@
+
+acur100_app_v00.00.02
+	发布日期：2022-09-22
+	变更日志：
+		1、修复波形异常问题。
+	补充信息：
+		1、对应的PS代码git标签：fcdb1db2d163d38c47cead657e00118f39e39ff2
+
+
+acur100_app_v00.00.01
+	发布日期：2022-09-22
+	变更日志：
+		1、通过confluence页面发布的首个嵌入式软件版本。
+		2、解决波形杂散问题，提高PLL分数器精度。
+		3、规避固化后网口不稳定的问题。
+		4、优化检测和波束调度算法。
+		5、解决裸机中断在rtos不能触发问题。
+		6、新增批量修改0165幅度码功能。
+	补充信息：
+		1、当前版本发布的confluence页面地址为 https://confluence.autel.com/display/APR100/acur100_app_v00.00.01
+		2、对应的PS代码git标签：3ec70914c72444752bc6acbf3deabae084e7dd0e
+		3、对应的PL版本路径为 https://confluence.autel.com/display/APR100/acur100_PL_v0001202209211500
+		
+
+V0.99.1
+	发布日期：2022-09-19
+	变更日志：
+		1、首个嵌入式软件版本。
+		2、支持通过命令行控制输出RDMAP数据或ADC调试数据。
+		3、支持上位机显示基本的检测目标、跟踪目标信息。
+	补充信息：
+		1、对应PL版本路径：http://10.240.1.104/svn/AllProject/Develop/AllProject/Product_IA/ACUR100/10_Software/FPGA/PS/code/acur100_hw/cuas_rfe_top_20220917_rdmap_testok.xsa
+		2、对应的PS代码git 标签：20a9ef9f0cbfe990bc2b6bd27caf9fb0879965aa
